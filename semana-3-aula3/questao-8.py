@@ -1,0 +1,11 @@
+#Escreva um programa que solicite ao usuário dois números e imprima uma mensagem formatada mostrando a soma, subtração, multiplicação e divisão dos números. Por exemplo: "A soma de {num1} e {num2} é {soma}.
+A = int(input('Escolha um numero:'))
+B = int(input('Escolha outro numero:'))
+Soma = (A) + (B)
+multiplicacao = (A) * (B)
+Subtracao = (A) - (B)
+divisao = (A) / (B)
+print ('A Soma de {} com {} é {}'.format(A , B, Soma))
+print ('A Subtracao de {} com {} é {}'.format( A, B, Subtracao))
+print ('A multiplicacao de {} com {} é {}'.format(A , B , multiplicacao))
+print ('A divisao de {} com {} é {}'.format(A , B , divisao))
