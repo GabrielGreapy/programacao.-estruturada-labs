@@ -1,0 +1,5 @@
+frase = input('Digite uma frase')
+fraseMenor = frase.lower()
+fraseMaior = frase.upper()
+print(fraseMaior)
+print(fraseMenor)
