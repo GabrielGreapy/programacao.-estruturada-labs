@@ -1,0 +1,1 @@
+# Implemente uma função validar_email que verifica se uma string fornecida como argumento representa um endereço de e-mail válido. Considere que um email válido não deve ter espaços, deve conter 01 arroba e terminar com .com
