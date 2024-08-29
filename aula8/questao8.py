@@ -8,5 +8,5 @@ def login(email):
         if email(re.search('[01]', email)):
             if email == emailv:
                 print('Login sucedido')
-email = input('Email pfv')
+email = str(input('Email pfv'))
 login(email)
